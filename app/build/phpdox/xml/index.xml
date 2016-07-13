@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/app">
+  <namespace name="App\Command">
+    <class name="CleanCacheCommand" src="Command/CleanCacheCommand.php" xml="classes/App_Command_CleanCacheCommand.xml"/>
+    <class name="DemoCommand" src="Command/DemoCommand.php" xml="classes/App_Command_DemoCommand.xml"/>
+  </namespace>
+</index>

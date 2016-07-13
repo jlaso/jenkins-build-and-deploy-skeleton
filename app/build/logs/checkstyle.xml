@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.6.1">
+<file name="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/tests/TrueTest.php">
+ <error line="3" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="7" column="27" severity="error" message="TRUE, FALSE and NULL must be lowercase; expected &quot;true&quot; but found &quot;TRUE&quot;" source="Generic.PHP.LowerCaseConstant.Found"/>
+ <error line="9" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+</checkstyle>
+

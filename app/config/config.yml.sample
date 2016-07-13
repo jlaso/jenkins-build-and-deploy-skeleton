@@ -1,0 +1,7 @@
+database:
+    driver: pdo_mysql
+    dbname: my_database
+    host: localhost
+    user: user-to-access-database
+    password: not-so-secure-password
+    port: 3306

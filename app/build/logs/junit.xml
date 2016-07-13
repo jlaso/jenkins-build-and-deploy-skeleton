@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.001022">
+    <testsuite name="TrueTest" file="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/tests/TrueTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.001022">
+      <testcase name="testTrue" class="TrueTest" file="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/tests/TrueTest.php" line="5" assertions="1" time="0.001022"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

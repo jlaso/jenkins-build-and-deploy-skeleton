@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Command\DemoCommand" namespace="App\Command" name="DemoCommand" abstract="false" final="false" start="11" end="47">
+  <file path="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/app/build/../../app/Command" file="DemoCommand.php" realpath="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/app/Command/DemoCommand.php" size="1193" time="2016-07-13T09:22:45+02:00" unixtime="1468394565" sha1="0e58fc8eb70d6c66afa226ef464ebcc867c7b65d" relative="Command/DemoCommand.php"/>
+  <extends full="Symfony\Component\Console\Command\Command" namespace="Symfony\Component\Console\Command" name="Command" unresolved="true"/>
+  <method name="configure" start="13" end="30" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="execute" start="32" end="46" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="input" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Input\InputInterface" namespace="Symfony\Component\Console\Input" name="InputInterface"/>
+    </parameter>
+    <parameter name="output" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Output\OutputInterface" namespace="Symfony\Component\Console\Output" name="OutputInterface"/>
+    </parameter>
+  </method>
+</class>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Command\CleanCacheCommand" namespace="App\Command" name="CleanCacheCommand" abstract="false" final="false" start="11" end="33">
+  <file path="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/app/build/../../app/Command" file="CleanCacheCommand.php" realpath="/Users/joseluislaso/other_projects/jenkins-build-and-deploy-skeleton/app/Command/CleanCacheCommand.php" size="872" time="2016-07-13T09:26:42+02:00" unixtime="1468394802" sha1="d987403fa09497f864daa32165554f78ec65cf21" relative="Command/CleanCacheCommand.php"/>
+  <extends full="Symfony\Component\Console\Command\Command" namespace="Symfony\Component\Console\Command" name="Command" unresolved="true"/>
+  <method name="configure" start="13" end="25" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="execute" start="27" end="32" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="input" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Input\InputInterface" namespace="Symfony\Component\Console\Input" name="InputInterface"/>
+    </parameter>
+    <parameter name="output" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Output\OutputInterface" namespace="Symfony\Component\Console\Output" name="OutputInterface"/>
+    </parameter>
+  </method>
+</class>

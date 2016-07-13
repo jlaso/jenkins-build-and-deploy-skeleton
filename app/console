@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+define("ROOT_DIR", dirname(__DIR__));
+
+require_once ROOT_DIR . '/vendor/autoload.php';
+
+use App\Command\DemoCommand;
+use App\Command\CleanCacheCommand;
+use Symfony\Component\Yaml\Yaml;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Config\FileLocator;
+
+$config = array();
+$locator = new FileLocator(array(ROOT_DIR.'/app/config'));
+$files = $locator->locate('config.yml', null, false);
+foreach($files as $file){
+    $current = Yaml::parse(file_get_contents($file));
+    $config = array_merge($config, $current);
+}
+
+$application = new Application();
+$application->config = $config;
+$application->addCommands(
+    array(
+        new DemoCommand(),
+        new CleanCacheCommand(),
+    )
+);
+$application->run();
