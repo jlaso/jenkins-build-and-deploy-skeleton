@@ -8,8 +8,15 @@ Just a proof on concept to check jenkins configuration
 
 create the webhook on github
 
+### Step 1
+
 ![step 1](doc/images/configure-webhook-on-github-1-3.png)
+
+### Step 2
 
 ![step 2](doc/images/configure-webhook-on-github-2-3.png)
 
+### Step 3
+
 ![step 3](doc/images/configure-webhook-on-github-3-3.png)
+
