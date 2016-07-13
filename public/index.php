@@ -12,6 +12,8 @@ if(DEV_MODE){
 
 $config = \Symfony\Component\Yaml\Yaml::parse(file_get_contents(__DIR__ . "/../app/config/config.yml"));
 
+$version = file_get_contents(ROOT_DIR.'/VERSION.txt');
+
 echo <<<EOD
 <html>
 <head>
@@ -35,6 +37,7 @@ echo <<<EOD
 </head>
 <body>
 <h1>Hey, it works!</h1>
+<h2>This is the version {$version}</h2>
 </body>
 </html>
 EOD;
